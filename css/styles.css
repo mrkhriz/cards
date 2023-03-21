@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fbe1d5;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .card {
+    margin-bottom: 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-right: 50px;
+  }
+  
+  .card:last-of-type {
+    margin-right: 0;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
